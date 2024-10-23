@@ -9,7 +9,7 @@ def main():
     API_URL = "http://localhost:8000/scrape"
 
     # Your API Key
-    API_KEY = os.getenv('RUFUS_API_KEY')  # Ensure this is set in your environment
+    API_KEY = os.getenv('RUFUS_API_KEY')
 
     if not API_KEY:
         print("Error: RUFUS_API_KEY environment variable not set.")
